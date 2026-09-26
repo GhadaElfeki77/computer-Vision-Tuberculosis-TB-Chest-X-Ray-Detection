@@ -1,0 +1,21 @@
+{
+    "dataset": "TB Chest X-ray Dataset",
+    "classes": [
+        "Normal",
+        "Tuberculosis"
+    ],
+    "total_images": 4200,
+    "train_images": 2940,
+    "validation_images": 630,
+    "test_images": 630,
+    "scratch_cnn": {
+        "best_validation_accuracy": 0.9619047619047619,
+        "test_loss": 0.06777558052350605,
+        "test_accuracy": 0.9761904761904762
+    },
+    "resnet18": {
+        "best_validation_accuracy": 1.0,
+        "test_loss": 0.004869345155274791,
+        "test_accuracy": 0.9968253968253968
+    }
+}
